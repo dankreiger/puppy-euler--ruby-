@@ -100,7 +100,7 @@ number =
         20849603980134001723930671666823555245252804609722
         53503534226472524250874054075591789781264330331690"
 
-puts "The answer is #{number.split.map(&:to_i).inject(&:+).to_s[0...10].to_i}\n\n\n"
+puts "\n\n\tThe puppy answer is: #{number.split.map(&:to_i).inject(&:+).to_s[0...10].to_i}.\n\n\n"
 
 
 
