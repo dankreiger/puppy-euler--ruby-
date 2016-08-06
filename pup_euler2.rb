@@ -1,35 +1,14 @@
-label = "\t"+("-"*21)
+require_relative "vars";s = Vars::Sentence.new
+
+def pup_euler2
+a = [1,2] 
 
 #Puponacci Series
-  a = [1,2]
-  upto = 4_000_000
-   while a[-2] + a[-1] < upto
-    a << a[-2] + a[-1] 
+a << a[-2] + a[-1] while a[-2] + a[-1] < 4_000_000
+# Sum of puponacci numbers 
+a.delete_if(&:odd?).inject(:+)
 end
- 
-# Sum of puponacci numbers
-sum = 0
-a.each { |x| sum+= x if x.even? }
- 
+
+s.solution(pup_euler2)
 
 
-
-
-puts "\n\n#{label}\n\tThe puppy answer is #{sum}.\n#{label}\n\n"
-
-
-
-
-
-
-puts "           .--.             .---.
-          /:.  '.         .' ..  '._.---.
-         /:::-.  \\.-\"\"\"-;\` .-:::.     .::\\
-        /::'|  \`\\/  _ _  \\'   \`\\:'   ::::|
-    __.'    |   /  (o|o)  \\     \`'.   ':/
-   /    .:. /   |   ___   |        '---'
-  |    ::::'   /:  (._.) .:\\
-  \\    .='    |:'        :::|
-   \`\"\"\`       \\     .-.   ':/
-               '---\`|I|\`---'
-                     '-'"
