@@ -3,7 +3,11 @@ puppy-euler--ruby-
 
 ruby solutions to puppy euler
 
-
+```ruby
+def puppy_euler__ruby_
+  ["woof " * 9000, " wau " * 9000].inject(:+)
+end
+```
                                                         /)
                                                   o__^^/_/)
                                                    \ ' \`-'     ___

@@ -1,8 +1,7 @@
 module Vars
-	LINE1 = "\n\n\t"+("-"*30)+"\n\tThe puppy answer is"
-	LINE2 = "\n\t"+("-"*30)+"\n\t"
+	LINE = "\n\tThe puppy answer is"
 
-	PUPPY = "           .--.             .---.
+	PUP = "           .--.             .---.
           /:.  '.         .' ..  '._.---.
          /:::-.  \\.-\"\"\"-;\` .-:::.     .::\\
         /::'|  \`\\/  _ _  \\'   \`\\:'   ::::|
@@ -17,7 +16,7 @@ module Vars
 
   class Sentence
   	def solution(p)
-			puts "#{LINE1} #{p}#{LINE2}\n\n#{PUPPY}"
+			puts "#{LINE} \033[32m#{p}\033[0m\n\n#{PUP}"
   	end
   end
 
@@ -128,4 +127,3 @@ module Vars
 
 
 end
-
