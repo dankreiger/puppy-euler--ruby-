@@ -13,15 +13,9 @@ puppy_euler__ruby_
 
 
 ```sh
-echo "woof woof!"
-
-cat << "EOF"
-
  (\_\^^__o   .
  `-'\ ` /   `(
     |  \_____|
     |        |                _
   ./`,----./~|     .   .   . - ()
-
-EOF
 ```
