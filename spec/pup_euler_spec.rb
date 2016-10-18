@@ -1,4 +1,5 @@
 require "pup_euler"
+require "solutions"
 
 describe PupEuler do
   before do

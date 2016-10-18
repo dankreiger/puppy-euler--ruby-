@@ -1,5 +1,4 @@
 require "colorize"
-require "solutions"
 
 ENV['RACK_ENV'] = 'test'
 
