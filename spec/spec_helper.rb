@@ -1,4 +1,7 @@
 require "colorize"
+require "prime"
+require "pup_euler"
+require "solutions"
 
 ENV['RACK_ENV'] = 'test'
 
