@@ -1,26 +1,30 @@
+require 'colorize'
+
 Dir["ruby/*pup*"].each{|file| require_relative "../#{file}"}
 
 class PupEuler
 
-  def pup_files
-    Dir["ruby/*pup*"]
-  end
 
-  def pup_method(n)
-    if pup_files.include?("ruby/pup_euler#{n}.rb")
-      self.send("pup_euler#{n}".to_sym)
+  def puppy_method(n)
+    if wau(n)
+      pup(n)
     else
-      puts "pup_euler#{n} is pending"
+      puts pending_pup(n)
     end
   end
 
-  def answers
-    {
-      1 => 233168,
-      2 => 4613732,
-      6 => 25164150,
-      7 => 104743,
-      13 => 5537376230
-    }
+  private
+
+  def wau(n)
+    Dir["ruby/*pup*"].include?("ruby/pup_euler#{n}.rb")
   end
+
+  def pup(n)
+    self.send("pup_euler#{n}".to_sym)
+  end
+
+  def pending_pup(n)
+    "pup_euler#{n} is pending".yellow.underline
+  end
+
 end
