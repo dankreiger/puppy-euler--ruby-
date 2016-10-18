@@ -29,4 +29,4 @@ matrix:
     - rvm: rbx
     - rvm: 2.4.0-preview1
   fast_finish: true
-script: bundle exec rspec spec --format documentation
+script: bundle exec rspec spec
