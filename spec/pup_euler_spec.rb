@@ -1,14 +1,11 @@
-require "pup_euler"
-require "solutions"
-
 describe PupEuler do
   before do
-    @problem = PupEuler.new
+    @sniff = PupEuler.new
   end
   1.upto(564) do |n|
     context "pup_euler#{n}" do
       it {
-        expect(@problem
+        expect(@sniff
           .puppy_method(n))
           .to eq(solutions[n])
       }

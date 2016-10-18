@@ -1,10 +1,4 @@
-require 'colorize'
-
-Dir["ruby/*pup*"].each{|file| require_relative "../#{file}"}
-
 class PupEuler
-
-
   def puppy_method(n)
     if wau(n)
       pup(n)

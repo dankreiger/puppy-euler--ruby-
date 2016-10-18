@@ -1,6 +1,13 @@
+require "colorize"
+require "pup_euler"
+require "solutions"
+
+ENV['RACK_ENV'] = 'test'
+
 RSpec.configure do |config|
-  ENV['RACK_ENV'] = 'test'
-  require 'prime'
+
+  Dir["ruby/*pup*"].each{|file| require_relative "../#{file}"}
+
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
