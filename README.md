@@ -1,6 +1,8 @@
 puppy-euler--ruby-
 ==================
 
+[![Build Status](https://travis-ci.org/dankreiger/puppy-euler--ruby-.svg?branch=master)](https://travis-ci.org/dankreiger/puppy-euler--ruby-)
+
 ruby solutions to puppy euler
 
 ```ruby
