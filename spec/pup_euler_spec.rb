@@ -1,10 +1,4 @@
 describe PupEuler do
-  ENV['RACK_ENV'] = 'test'
-  require 'prime'
-
-  
-  Dir["ruby/*pup*"].each{|file| require_relative "../#{file}"}
-
   before do
     @sniff = PupEuler.new
   end
