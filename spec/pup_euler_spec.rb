@@ -1,3 +1,5 @@
+require "pup_euler"
+
 describe PupEuler do
   before do
     @sniff = PupEuler.new
