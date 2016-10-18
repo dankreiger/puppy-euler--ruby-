@@ -16,7 +16,7 @@ module Vars
 
   class Sentence
   	def solution(p)
-			puts "#{LINE} \033[32m#{p}\033[0m\n\n#{PUP}"
+			"#{LINE} \033[32m#{p}\033[0m\n\n#{PUP}"
   	end
   end
 
