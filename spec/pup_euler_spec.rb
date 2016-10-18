@@ -1,10 +1,5 @@
-Dir["ruby/*pup*"].each{|file| require_relative "../#{file}"}
-
-
 describe PupEuler do
-
-  ENV['RACK_ENV'] = 'test'
-  require "solutions"
+  Dir["ruby/*pup*"].each{|file| require_relative "../#{file}"}
 
   before do
     @sniff = PupEuler.new
