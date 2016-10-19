@@ -18,7 +18,7 @@ class PupEuler
   end
 
   def pending_pup(n)
-    "pup_euler#{n} is pending".yellow.underline
+    "  "+"pending".yellow.underline
   end
 
 end
