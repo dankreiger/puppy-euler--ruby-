@@ -1,8 +1,5 @@
 require_relative 'output'
 
-# What is the largest prime factor of the number 60085147514
-
-
 def prime?(number)
   (2..number-1).each do |n|
     if number%n == 0
@@ -34,4 +31,4 @@ def pup_euler3
   (prime_factors.sort).at(prime_factors.length-1)
 end
 
-puts pup(pup_euler3)
+puts pup(pup_euler3, 3)

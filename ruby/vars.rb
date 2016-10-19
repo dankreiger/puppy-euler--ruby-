@@ -1,3 +1,5 @@
+require "colorize"
+
 module Vars
 	LINE = "\n\tThe puppy answer is"
 
@@ -11,10 +13,15 @@ module Vars
   \\    .='    |:'        :::|
    \`\"\"\`       \\     .-.   ':/
                '---\`|I|\`---'
-                     '-'"
+                     '-'".yellow
 
 
   class Sentence
+
+		def question(num)
+			questions[num]
+		end
+
   	def solution(p)
 			"#{LINE} \033[32m#{p}\033[0m\n\n#{PUP}"
   	end
