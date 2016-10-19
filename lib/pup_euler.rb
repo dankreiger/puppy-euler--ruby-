@@ -1,10 +1,6 @@
 class PupEuler
   def puppy_method(n)
-    if wau(n)
-      pup(n)
-    else
-      puts pending_pup(n)
-    end
+    pup(n) if wau(n)
   end
 
   private
@@ -16,9 +12,4 @@ class PupEuler
   def pup(n)
     self.send("pup_euler#{n}".to_sym)
   end
-
-  def pending_pup(n)
-    "  "+"pending".yellow.underline
-  end
-
 end
