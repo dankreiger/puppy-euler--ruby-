@@ -12,7 +12,7 @@ def pup(method, num)
     #pupmark the puppies
     Benchmark.bm do |bm|
       bm.report {method}
-    end    
+    end
   end
 
 

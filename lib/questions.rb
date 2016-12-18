@@ -16,6 +16,7 @@ def questions
     6 => fmt("The sum of the squares of the first ten natural numbers is, 12 + 22 + ... + 102 = 385 ; The square of the sum of the first ten natural numbers is, (1 + 2 + ... + 10)2 = 552 = 3025 ; Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640. Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum."),
     7 => fmt("By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. What is the 10 001st prime number?"),
     8 => fmt("The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832. ") + "\n#{Vars::P8_NUM}\n" + fmt("\nFind the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?"),
+    9 => fmt("A Pythagorean triplet is a set of three natural numbers, a < b < c, for which, a**2 + b**2 = c**2\n\nFor example, 3**2 + 4**2 = 9 + 16 = 25 = 5**2.\n\nThere exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc."),
     13 => fmt("Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.") + "\n\t#{Vars::P13_NUM}"
   }
 end
