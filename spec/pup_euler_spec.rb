@@ -11,8 +11,9 @@ describe PupEuler do
 
       it "does not exceed 50ms runtime" do
         pup_bench = Benchmark.realtime { sniff.puppy_method(n) }
-        puts "\tpup_bench: #{pup_bench}"
         expect(pup_bench).to be <= 0.05
+
+        puts "\tpup_bench: #{pup_bench}"
       end
     end
   end
