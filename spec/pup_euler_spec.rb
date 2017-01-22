@@ -9,9 +9,9 @@ describe PupEuler do
     context "pup_euler#{n}" do
       solutions[n] ? it {expect(sniff.puppy_method(n)).to eq(solutions[n])} : pending(" ")
 
-      it "does not exceed 50ms runtime" do
+      it "does not exceed 100ms runtime" do
         pup_bench = Benchmark.realtime { sniff.puppy_method(n) }
-        expect(pup_bench).to be <= 0.05
+        expect(pup_bench).to be <= 0.1
 
         puts "\tpup_bench: #{pup_bench}"
       end
