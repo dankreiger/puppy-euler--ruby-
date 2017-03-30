@@ -5,7 +5,7 @@ describe PupEuler do
   let(:sniff)  { PupEuler.new }
 
   # 1.upto(564) do |n|
-  1.upto(13) do |n|
+  1.upto(56) do |n|
     context "pup_euler#{n}" do
       solutions[n] ? it {expect(sniff.puppy_method(n)).to eq(solutions[n])} : pending(" ")
 

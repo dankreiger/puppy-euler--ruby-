@@ -18,6 +18,7 @@ def questions
     8 => fmt("The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832. ") + "\n#{Vars::P8_NUM}\n" + fmt("\nFind the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?"),
     9 => fmt("A Pythagorean triplet is a set of three natural numbers, a < b < c, for which, a**2 + b**2 = c**2\n\nFor example, 3**2 + 4**2 = 9 + 16 = 25 = 5**2.\n\nThere exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc."),
     10 => fmt("The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17. Find the sum of all the primes below two million."),
-    13 => fmt("Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.") + "\n\t#{Vars::P13_NUM}"
+    13 => fmt("Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.") + "\n\t#{Vars::P13_NUM}",
+    56 => fmt("A googol (10100) is a massive number: one followed by one-hundred zeros; 100100 is almost unimaginably large: one followed by two-hundred zeros. Despite their size, the sum of the digits in each number is only 1.\nConsidering natural numbers of the form, ab, where a, b < 100, what is the maximum digital sum?")
   }
 end
