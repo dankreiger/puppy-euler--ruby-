@@ -13,7 +13,9 @@ var pupEuler2=()=>{
     fib[i] = fib[i-2] + fib[i-1];
     if(!(fib[i]%2)){sum+=fib[i];}
   }
-  console.log(sum);
+  return sum;
 }
 
 pupEuler2();
+
+module.exports = pupEuler2;
