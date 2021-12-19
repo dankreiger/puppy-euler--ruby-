@@ -1,7 +1,7 @@
 # puppy-euler--ruby-
 
-![ruby](https://github.com/dankreiger/puppy-euler--ruby-/actions/workflows/rb.yml/badge.svg)
-![js](https://github.com/dankreiger/puppy-euler--ruby-/actions/workflows/js.yml/badge.svg)
+![ruby](https://github.com/dankreiger/puppy-euler--ruby-/actions/workflows/ruby.yml/badge.svg)
+![js](https://github.com/dankreiger/puppy-euler--ruby-/actions/workflows/node.yml/badge.svg)
 
 ruby/js solutions to puppy euler
 

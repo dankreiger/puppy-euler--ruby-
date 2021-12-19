@@ -23,6 +23,8 @@ GEM
     rspec-support (3.10.3)
 
 PLATFORMS
+  macos-unknown
+  ubuntu-unknown
   universal-darwin-21
 
 DEPENDENCIES
