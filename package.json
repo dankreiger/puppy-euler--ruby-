@@ -1,5 +1,16 @@
 {
+  "name": "puppy-euler--ruby-",
+  "private": true,
+  "license": "MIT",
   "devDependencies": {
-    "jest": "26.6.3"
+    "jest": "27.4.5",
+    "scripty": "2.0.0"
+  },
+  "scripts": {
+    "clean": "scripty",
+    "postinstall": "scripty",
+    "start": "scripty",
+    "test:rb": "scripty",
+    "test:js": "scripty"
   }
 }
