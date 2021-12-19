@@ -1,7 +1,6 @@
-puppy-euler--ruby-
-==================
+# puppy-euler--ruby-
 
-[![Build Status](https://travis-ci.org/dankreiger/puppy-euler--ruby-.svg?branch=master)](https://travis-ci.org/dankreiger/puppy-euler--ruby-)
+![ruby](https://github.com/dankreiger/puppy-euler--ruby-/actions/workflows/ruby.yml/badge.svg)
 
 ruby solutions to puppy euler
 
@@ -13,7 +12,7 @@ end
 puppy_euler__ruby_
 ```
 
-***
+---
 
 ```sh
  (\_\^^__o   .
@@ -21,4 +20,22 @@ puppy_euler__ruby_
     |  \_____|
     |        |                _
   ./`,----./~|     .   .   . - ()
+```
+
+## Do it
+
+```sh
+yarn start
+```
+
+## Run ruby tests
+
+```sh
+yarn test:rb
+```
+
+## Run js tests
+
+```sh
+yarn test:js
 ```
